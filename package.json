@@ -1,0 +1,20 @@
+{
+  "name": "mochachai-api-test",
+  "version": "1.0.0",
+  "description": "API test with Mocha Chai",
+  "scripts": {
+    "test": "mocha '**/*.spec.js' --reporter mochawesome --require mochawesome/register --require dotenv/config"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "supertest": "^6.3.3",
+    "util": "^0.12.5"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
